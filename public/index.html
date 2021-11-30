@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="https://kit.fontawesome.com/2c1a3c461e.js" crossorigin="anonymous"></script>
+    <title>Elf.K portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar flex justify-between fixed w-full h-12 pl-8 pr-12">
+        <div class="logo flex items-center w-full">
+            <a href="./index.html">
+                <img src="../assets/Avatar.png" alt="logo"></img>
+            </a>
+        </div>
+        <div class="flex items-center">
+          <a href="https://www.linkedin.com/in/karim-el-fakih-5b523320a" class="menu text-xs mr-3">
+            <i class="fab fa-linkedin mr-1"></i>
+            linkedin
+          </a>
+          <a href="https://github.com/karimOC?tab=repositories" class="menu text-xs mr-3">
+            <i class="fab fa-github"></i>
+            github
+          </a>
+        </div>
+          <div class="flex items-center">
+            <a href="./index.html">
+                <i class="fas fa-home"></i>
+            </a>
+          </div>
+      </div>
+
+    <!-- HOME -->
+      <div class="flex flex-col items-center justify-start">
+        <div>
+          <p class="md:text-5xl sm:text-3xl md:mt-24 sm:mt-16">
+            EL FAKIH Karim
+          </p>
+        </div>
+        <div>
+          <div class="machine-ecrire text-3xl sm:text-xl">
+            <p>Développeur Web Full-Stack...</p>
+          </div>
+        </div>
+        <img class="avatar" src="../assets/Avatar.png" alt="avatar"></img>
+      </div>
+
+      <!-- DEVICES -->
+      <div class="devices flex items-center justify-center">
+        <img id="imac" class="img-apple" src="../assets/devices/imac.png" alt="imac"></img>
+        <img id="mac" class="img-apple" src="../assets/devices/mac.png" alt="mac"></img>
+        <img
+          id="screen"
+          class="img-apple"
+          src="../assets/devices/screen.png"
+          alt="screen"
+        ></img>
+        <img id="ipad" class="img-apple" src="../assets/devices/ipad.png" alt="ipad"></img>
+        <img
+          id="iphone"
+          class="img-apple"
+          src="../assets/devices/iphone.png"
+          alt="iphone"
+        ></img>
+      </div>
+
+    <!-- A PROPOS -->
+    <div class="a-propos flex flex-col justify-center">
+        <div class="effect-text md:text-2xl sm:text-base md:pb-32 sm:mb-32 text-white font-bold md:m-20 sm:m-8">
+          <p class="text-blue-200 mb-5">
+            Bonjour, je suis Karim. Ravi de vous rencontrer.
+          </p>
+          Développeur web, je me suis engagé dans cette voie professionnelle
+          avant tout par passion. Quoi de plus stimulant et de plus
+          satisfaisant que de créer un site, de le faire fonctionner et de
+          chercher des solutions lorsqu’un problème apparaît ? Une vraie
+          révélation pour moi avec l’envie chaque jour d’en apprendre toujours
+          davantage...
+        </div>
+      </div>
+
+      <!-- PROJETS -->
+      <div>
+        <div class="flex items-center justify-center">
+            <div class="mb-5 text-3xl">Mes Projets</div>
+          </div>
+          <div class="flex flex-wrap justify-center items-center md:flex-row sm:flex-col">
+            <!-- GROUPOMANIA  -->
+            <div class="card w-64 m-5 rounded-lg overflow-hidden shadow-xl bg-red-300">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Groupomania</div>
+                <p class="text-gray-700 text-sm">
+                  <i>Créer un réseau social d'entreprise</i>
+                </p>
+              </div>
+              <div class="flex pl-3 pr-3 pb-3">
+                <img
+                  src="../assets/frontblack.png"
+                  alt="frontend img"
+                  class="w-20"
+                ></img>
+                <img
+                  src="../assets/backblackpng.png"
+                  alt="frontend img"
+                  class="w-20"
+                ></img>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                  #NodeJS
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                  #ReactJS
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                  #VueJS
+                </span>
+              </div>
+              <div class="flex items-center justify-center pb-4">
+                  <a class="btn-more text-white text-xs py-1 px-2 rounded-full" href="../public/pages/groupomania.html">
+                    <p>En savoir plus</p>
+                  </a>
+              </div>
+            </div>
+    
+            <!-- SO PEKOCKO -->
+              <div class="card w-64 m-5 rounded-lg overflow-hidden shadow-xl bg-yellow-300">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2 text-white">
+                    So Pekocko
+                  </div>
+                  <p class="text-sm text-white">
+                    <i>Construisez une API sécurisée</i>
+                  </p>
+                </div>
+                <div class="flex pl-3 pr-3 pb-3">
+                  <img
+                    src="../assets/backblackpng.png"
+                    alt="frontend img"
+                    class="w-20"
+                  ></img>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #NodeJS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #Express
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #Ajax
+                  </span>
+                </div>
+                <div class="flex items-center justify-center pb-4">
+                    <a class="btn-more text-white text-xs py-1 px-2 rounded-full" href="../public/pages/sopekocko.html">
+                      <p>En savoir plus</p>
+                    </a>
+                </div>
+              </div>
+    
+              <!-- CAMERA VINTAGE -->
+              <div class="card w-64 m-5 rounded-lg overflow-hidden shadow-xl bg-purple-300">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Caméra Vintage</div>
+                  <p class="text-sm">
+                    <i>Construisez un site e-commerce</i>
+                  </p>
+                </div>
+                <div class="flex pl-3 pr-3 pb-3">
+                  <img
+                    src="../assets/frontblack.png"
+                    alt="frontend img"
+                    class="img-black w-20"
+                  ></img>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #JS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #HTML
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #CSS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #BOOTSTRAP
+                  </span>
+                </div>
+                <div class="flex items-center justify-center pb-4">
+                    <a class="btn-more text-white text-xs py-1 px-2 rounded-full" href="../public/pages/cameravintage.html">
+                      <p>En savoir plus</p>
+                    </a>
+                </div>
+              </div>
+    
+              <!-- OHMYFOOD -->
+              <div class="card w-64 m-5 rounded-lg overflow-hidden shadow-xl bg-green-300">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2 text-white">
+                    Ohmyfood
+                  </div>
+                  <p class="text-white text-sm">
+                    <i>Dynamisez une page web avec des animations CSS</i>
+                  </p>
+                </div>
+                <div class="flex pl-3 pr-3 pb-3">
+                  <img
+                    src="../assets/frontblack.png"
+                    alt="frontend img"
+                    class="img-white w-20"
+                  ></img>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #HTML
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #CSS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #TransitionsCSS
+                  </span>
+                </div>
+                <div class="flex items-center justify-center pb-4">
+                    <a class="btn-more text-white text-xs py-1 px-2 rounded-full" href="../public/pages/ohmyfood.html">
+                      <p>En savoir plus</p>
+                    </a>
+                </div>
+              </div>
+    
+              <!-- RESERVIA -->
+              <div class="card w-64 m-5 rounded-lg overflow-hidden shadow-xl bg-blue-300">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Reservia</div>
+                  <p class="text-gray-700 text-sm">
+                    <i>Transformez une maquette en site web</i>
+                  </p>
+                </div>
+                <div class="flex pl-3 pr-3 pb-3">
+                  <img
+                    src="../assets/frontblack.png"
+                    alt="frontend img"
+                    class="w-20"
+                  ></img>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #HTML
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-500 mr-2 mb-2">
+                    #CSS
+                  </span>
+                </div>
+                <div class="flex items-center justify-center pb-4">
+                    <a class="btn-more text-white text-xs py-1 px-2 rounded-full" href="../public/pages/reservia.html">
+                      <p>En savoir plus</p>
+                    </a>
+                </div>
+              </div>
+      </div>
+      
+
+          <!-- FOOTER -->
+          <footer>
+            <div class="footer flex flex-col items-center justify-center p-10 mt-10">
+                <div>
+                    <p class="menu text-sm mb-3">
+                      <i class="gmail fas fa-envelope"></i>
+                          <a href="mailto:elfakihkarim@gmail.com">
+                              elfakihkarim@gmail.com
+                          </a>
+                    </p>
+                </div>
+                <div class="flex items-center mb-3">
+                    <a href="https://www.linkedin.com/in/karim-el-fakih-5b523320a" class="menu text-sm mr-3">
+                      <i class="linkedin fab fa-linkedin mr-1"></i>
+                      linkedin
+                    </a>                   
+                </div>
+                <div class="flex items-center mb-10">                  
+                    <a href="https://github.com/karimOC?tab=repositories" class="menu text-sm mr-3">
+                      <i class="github fab fa-github"></i>
+                      github
+                    </a>
+                </div>
+                <div class="text-xs">
+                    © 2021 developped by EL FAKIH Karim
+                </div>
+              </div>
+          </footer>
+</body>
+</html>

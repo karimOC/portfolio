@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NAVBAR */
+.navbar {
+  background-color: #333333;
+  color: #d6d6d6;
+}
+.logo {
+  width: 30px;
+}
+.logo:hover {
+  color: white;
+}
+
+.menu:hover {
+  color: white;
+}
+
+/* A PROPOS */
+.a-propos {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(black, white);
+}
+.effect-text {
+  animation: effect-text 4s, opac-text 4s;
+  position: relative;
+}
+
+@keyframes effect-text {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 0px;
+  }
+}
+@keyframes opac-text {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* DEVICES */
+#imac {
+  position: relative;
+  animation: imacmove 4s;
+}
+@keyframes imacmove {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#mac {
+  position: absolute;
+  animation: macmove 4s;
+}
+@keyframes macmove {
+  from {
+    left: 2000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+#ipad {
+  position: absolute;
+  animation: ipadmove 4s;
+}
+@keyframes ipadmove {
+  from {
+    right: 2000px;
+  }
+  to {
+    right: 0px;
+  }
+}
+#iphone {
+  position: absolute;
+  animation: iphonemove 4s;
+}
+@keyframes iphonemove {
+  from {
+    left: 4000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+#screen {
+  position: absolute;
+  animation: iwatchmove 4s;
+}
+@keyframes iwatchmove {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* HOME */
+.machine-ecrire {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 3s steps(29);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.machine-ecrire::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 1px;
+  background-color: black;
+  right: 0;
+  top: 0;
+  animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* PROJECTS */
+.btn-more {
+  background-color: #1871e3;
+  transition: transform 0.1s;
+}
+.btn-more:hover {
+  background-color: #2777e0;
+  transform: scale(1.1);
+}
+
+.card {
+  height: 320px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.623);
+}
+
+.footer {
+  background-color: #333333;
+  color: #d6d6d6;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.gmail {
+  color: #BB001B;
+}
