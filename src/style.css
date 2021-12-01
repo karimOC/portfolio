@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* NAVBAR */
 .navbar {
   background-color: #333333;
@@ -197,5 +201,5 @@
 }
 
 .gmail {
-  color: #BB001B;
+  color: #bb001b;
 }
