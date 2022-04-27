@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../assets/bg.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(240, 240, 240, 0.476);
 }
 
 /* NAVBAR */

@@ -1,16 +1,18 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      screens: {
-        sm: "320px",
-        // => @media (min-width: 320px) { ... }
-      },
+    extend: {},
+    screens: {
+      sm: "319px",
+
+      md: "426px",
+
+      lg: "1024px",
+
+      xl: "1440px",
     },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
+  tailwindcss: {},
+  autoprefixer: {},
 };
